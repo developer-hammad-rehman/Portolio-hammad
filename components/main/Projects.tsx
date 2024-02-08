@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
-
+import project1 from "../../public/Frame 1.png"
 const Projects = () => {
   return (
     <div
@@ -12,19 +12,20 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        // @ts-ignore
+          src={project1}
+          title="Modern Next.js Coffe Shop"
+          description="Craft a cutting-edge Next.js Coffee Shop website with seamless navigation, dynamic UI, and responsive design."
         />
         <ProjectCard
           src="/CardImage.png"
           title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Engage users with interactive website cards—captivating, dynamic content that enhances user experience, promotes interaction, and boosts site engagement."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Explore the cosmos with our stellar space-themed website design experience."
         />
       </div>
     </div>
